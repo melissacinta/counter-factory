@@ -88,7 +88,7 @@ export function createCounter(initialValue = 0) {
 ## Reflection
 
 1. **Closures** preserve internal state without exposing it.
-2. **Prototypes** let us reuse methods across instances efficiently.
+2. **Prototypes** let us reuse methods more efficiently across instances.
 3. **Mutable** methods are simpler but risk side effects. **Immutable** methods are safer and predictable.
 4. **Higher-order functions** like `transform` make counters more customizable.
 5. ES6 features improved readability, reduced boilerplate, and made logic more expressive.

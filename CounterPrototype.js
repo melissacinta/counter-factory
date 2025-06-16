@@ -1,3 +1,4 @@
+// CounterPrototype is a shared prototype for all counter instances
 export const CounterPrototype = {
   increment() {
     throw new Error('Not implemented');
